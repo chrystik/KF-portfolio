@@ -1,0 +1,84 @@
+<template>
+  <div id="nav">
+    <router-view></router-view>
+  </div>
+</template>
+
+<style>
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app {
+  font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starter-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 78px;
+    font-weight: 400;
+    text-shadow: #0e0e0e 1px 0 10px;
+    transition: .5s;
+}
+
+.starter-link:hover {
+    color: #0e0e0e;
+    text-shadow: none;
+    font-weight: 500;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1399.98px) {
+    .starter-link {
+      font-size: 65px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .starter-link {
+      font-size: 54px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .starter-link {
+      font-size: 48px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .starter-link {
+      font-size: 42px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .starter-link {
+      font-size: 28px;
+      display: none;
+    }
+
+    .mobile {
+      font-size: 60px;
+      display: flex;
+    }
+}
+
+</style>
