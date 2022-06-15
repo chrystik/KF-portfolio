@@ -61,13 +61,6 @@ export default {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
-    @media (min-width: 1400px) {
-        .worktype-container {
-            width: 205px !important;
-            height: 205px !important;
-        }
-    }
 
     @media (max-width: 1399.98px) {
         .worktype-container {
