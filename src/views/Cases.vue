@@ -64,8 +64,8 @@ export default {
     
     @media (min-width: 1400px) {
         .worktype-container {
-            width: 205px;
-            height: 205px;
+            width: 205px !important;
+            height: 205px !important;
         }
     }
 
